@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_actualizar"
+        android:title="Actualizar"
+        />
+    <item
+        android:id="@+id/menu_grabar"
+        android:title="Grabar"
+        />
+    <item
+        android:id="@+id/menu_compartir"
+        android:title="Compartir"
+        />
+    <item
+        android:id="@+id/eventos"
+        android:title="Eventos"
+        >
+        <menu>
+            <item
+                android:id="@+id/menu_hoy"
+                android:title="Hoy"
+                />
+            <item
+                android:id="@+id/menu_semanales"
+                android:title="Semanales"
+                />
+            <item
+                android:id="@+id/menu_mensuales"
+                android:title="Mensuales"
+                />
+            <item
+                android:id="@+id/menu_anuales"
+                android:title="Anuales"
+                />
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/copiar"
+        android:title="Llamar"
+        />
+    <item
+        android:id="@+id/borrar"
+        android:title="Más"
+
+    >
+        <menu>
+            <item
+                android:id="@+id/menu_salir"
+                android:title="Salir"
+                />
+            <item
+                android:id="@+id/menu_ayuda"
+                android:title="Ayuda"
+                />
+        </menu>
+
+    </item>
+
+
+</menu>
